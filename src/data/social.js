@@ -13,7 +13,7 @@ export const socials = [
   },
   {
     site: "LinkedIn",
-    url: "https://linkedin.com/rajatkulkarni95",
+    url: "https://www.linkedin.com/in/rajatkulkarni95/",
     icon: <AiFillLinkedin />,
   },
   {
