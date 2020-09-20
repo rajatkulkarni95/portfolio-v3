@@ -23,10 +23,10 @@ export const Socials = () => {
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  margin: 20px 70px;
+  margin: 20px 70px 40px 70px;
 
   @media (max-width: 1024px) {
-    margin: 20px 40px;
+    margin: 20px 40px 40px 40px;
   }
 `;
 

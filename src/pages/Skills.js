@@ -52,6 +52,6 @@ const Text = styled.span`
   color: ${(p) => p.theme.colors.accent};
 
   @media (max-width: ${(p) => p.theme.screens.md}) {
-    display: none;
+    font-size: 9px;
   }
 `;

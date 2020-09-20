@@ -31,10 +31,19 @@ export const Navigation = ({ theme, handleClick }) => {
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  padding: 40px 70px;
+  padding: 40px 100px;
+  margin: 0 50px;
+
+  @media (max-width: ${(p) => p.theme.screens.lg}) {
+    margin: 0;
+  }
 
   @media (max-width: ${(p) => p.theme.screens.md}) {
     padding: 40px;
+  }
+
+  @media (max-width: ${(p) => p.theme.screens.sm}) {
+    padding: 20px 40px;
   }
 `;
 

@@ -7,13 +7,13 @@ export const ButtonContainer = () => (
   <Flex>
     <Button
       href="mailto:rajatkulkarni95@gmail.com"
-      background="#2C323D"
-      color="#C1C2C6"
-      hover="#353c4a"
+      background="#ff7e67"
+      color="#1a1c20"
+      hover="#ed6c55"
     >
       Email Me
     </Button>
-    <Button href={Resume} background="#ff7e67" color="#1a1c20" hover="#ed6c55">
+    <Button href={Resume} background="#2C323D" color="#C1C2C6" hover="#353c4a">
       Resume
     </Button>
   </Flex>

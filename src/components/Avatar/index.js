@@ -12,4 +12,8 @@ const Image = styled.img`
   height: 175px;
   border-radius: 50%;
   margin: 10px 0;
+
+  @media (max-width: ${(p) => p.theme.screens.sm}) {
+    margin: 0;
+  }
 `;
