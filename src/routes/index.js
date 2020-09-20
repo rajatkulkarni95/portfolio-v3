@@ -5,6 +5,7 @@ import { HomePage } from "../pages/Home";
 import { ProjectsPage } from "../pages/Projects";
 import { AboutPage } from "../pages/About";
 import { SkillsPage } from "../pages/Skills";
+import { ErrorPage } from "../pages/404";
 
 export const Routes = () => {
   return (
@@ -20,6 +21,9 @@ export const Routes = () => {
       </Route>
       <Route exact path="/skills">
         <SkillsPage />
+      </Route>
+      <Route>
+        <ErrorPage />
       </Route>
     </Switch>
   );

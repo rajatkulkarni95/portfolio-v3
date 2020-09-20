@@ -10,6 +10,8 @@ export const Socials = () => {
           href={social.url}
           key={social.site}
           aria-label={`${social.site} Icon`}
+          target="_blank"
+          rel="noreferrer"
         >
           {social.icon}
         </Link>

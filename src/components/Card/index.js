@@ -12,10 +12,10 @@ export const Card = ({ name, description, techStack, github, appLink }) => (
       ))}
     </List>
     <LinkContainer>
-      <Link href={github}>
+      <Link href={github} target="_blank" rel="noreferrer">
         Github <FiExternalLink />
       </Link>
-      <Link href={appLink}>
+      <Link href={appLink} target="_blank" rel="noreferrer">
         Live App <FiExternalLink />
       </Link>
     </LinkContainer>
