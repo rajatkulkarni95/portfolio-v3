@@ -18,6 +18,7 @@ export const ProjectsPage = () => (
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 `;
 
 const Heading = styled.h1`

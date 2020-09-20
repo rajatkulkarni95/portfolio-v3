@@ -51,6 +51,7 @@ export const AboutPage = () => (
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 `;
 
 const Section = styled.section`

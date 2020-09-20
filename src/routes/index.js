@@ -10,16 +10,16 @@ import { ErrorPage } from "../pages/404";
 export const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route key="home-page" exact path="/">
         <HomePage />
       </Route>
-      <Route exact path="/projects">
+      <Route key="project-page" exact path="/projects">
         <ProjectsPage />
       </Route>
-      <Route exact path="/about">
+      <Route key="about-page" exact path="/about">
         <AboutPage />
       </Route>
-      <Route exact path="/skills">
+      <Route key="skills-page" exact path="/skills">
         <SkillsPage />
       </Route>
       <Route>
