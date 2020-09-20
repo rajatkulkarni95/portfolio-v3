@@ -41,7 +41,7 @@ export const AboutPage = () => (
       <Text>
         You can usually see me watching the current Formula 1 race, watching
         highlights of the last race, watching videos of the previous races or
-        being of the formula 1 subreddit (Gee! Guess i like Formula 1).
+        being in the formula 1 subreddit (Gee! Guess I like Formula 1).
       </Text>
       <Text>Also can be seen losing MMR at Dota most times.</Text>
     </Section>

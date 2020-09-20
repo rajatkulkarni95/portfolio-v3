@@ -24,7 +24,8 @@ export const GlobalStyle = createGlobalStyle`
         font-family: ${theme.fonts.text};
         line-height: ${theme.lineHeights.body};
         display: block;
-        
+        transition: background 0.3s ease;
     }
+
     `}
 `;
