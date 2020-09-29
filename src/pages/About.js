@@ -19,15 +19,14 @@ export const AboutPage = () => (
     <Section>
       <Heading>Why Web Development?</Heading>
       <Text>
-        While I've known HTML and CSS for a long time now, it was the iPhone
-        landing page that truly made me feel that i wanted to be a part of the
-        industry that strives to reach its customers via beautiful rendentions
-        of the web.
+        It's been 10 years since I was first exposed to the World of Programming
+        via C++. While it was a fun language (although a hard first language), I
+        quickly moved on to C and then Python for my programming fix and now
+        onto Javascript.
       </Text>
       <Text>
-        I have since learnt a lot about how the web works, and what drives the
-        data to make those things pop out as they did when i first saw the
-        landing page.
+        I have since, learnt a lot about the web, how to build beautiful
+        websites from design, and how to couple them up with my own backend.
       </Text>
       <Text>
         The purpose of me pursuing a career in web development is because of the
@@ -39,9 +38,8 @@ export const AboutPage = () => (
     <Section>
       <Heading>What else?</Heading>
       <Text>
-        You can usually see me watching the current Formula 1 race, watching
-        highlights of the last race, watching videos of the previous races or
-        being in the formula 1 subreddit (Gee! Guess I like Formula 1).
+        A huge Formula 1 fan, can be seen on weekends, watching the race or
+        reading on the internet.
       </Text>
       <Text>Also can be seen losing MMR at Dota most times.</Text>
     </Section>

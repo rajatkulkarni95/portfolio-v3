@@ -21,7 +21,7 @@ export const ButtonContainer = () => (
 
 const Flex = styled.div`
   display: flex;
-  padding: 10px 70px;
+  padding: 10px 0;
 
   @media (max-width: 1024px) {
     padding: 10px 40px;
