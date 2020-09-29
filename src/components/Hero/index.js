@@ -6,8 +6,8 @@ export const Hero = () => {
   return (
     <Flex>
       <Text>
-        Hi, I’m Rajat. I’m an experienced automation developer with deep
-        interest and passion for modern web development.
+        Hi, I’m Rajat. I’m an experienced automation and python developer with a
+        deep interest and passion for modern web development.
       </Text>
       <Avatar />
     </Flex>
@@ -17,7 +17,7 @@ export const Hero = () => {
 const Flex = styled.div`
   display: flex;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 30px 0;
 
   @media (max-width: ${(p) => p.theme.screens.lg}) {
     flex-direction: column-reverse;
