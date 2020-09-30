@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "../Button";
-import Resume from "../../assets/Rajat Kulkarni Resume - 2020.pdf";
+import Resume from "../../assets/Rajat_Kulkarni_Resume.pdf";
 
 export const ButtonContainer = () => (
   <Flex>
