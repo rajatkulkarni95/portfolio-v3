@@ -2,6 +2,8 @@ Personal Portfolio created using React and Styled Components.
 
 ## Available Scripts
 
+### `yarn` or `npm install` to install the dependencies
+
 In the project directory, you can run:
 
 ### `yarn start`
