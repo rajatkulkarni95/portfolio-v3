@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { Navigation } from "./components/Navigation";
 import { Routes } from "./routes";
 import { darkTheme, lightTheme } from "./theme";
 import { GlobalStyle } from "./theme/globalStyle";
+import {useLocalStorage} from './hooks/useLocalStorage';
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [storedTheme, setStoredTheme] = useLocalStorage();
+  
 
   const themeSwitcher = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+    storedTheme === "light" ? setStoredTheme("dark") : setStoredTheme("light");
   };
+
   return (
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+    <ThemeProvider theme={storedTheme === "light" ? lightTheme : darkTheme}>
       <GlobalStyle />
-      <Navigation theme={theme} handleClick={themeSwitcher} />
+      <Navigation theme={storedTheme} handleClick={themeSwitcher} />
       <Container>
         <Routes />
       </Container>

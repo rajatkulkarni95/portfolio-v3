@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    name: "Movies",
+    name: "FilmRoll",
     description:
       "A movie search app based on the Epic Games store design, which provides Trending movies, ability to search and save movies to Favourites with the power of local storage",
     image: "",
